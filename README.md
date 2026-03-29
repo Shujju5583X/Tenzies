@@ -30,6 +30,19 @@ npm run dev
 
 Your terminal will display a local URL (usually `http://localhost:5173/`). Open this link in your web browser to play the game!
 
+## 🚀 Deployment
+
+The easiest way to deploy this project is via [Netlify](https://www.netlify.com/).
+
+### Deploying via GitHub
+1. Upload your code to a GitHub repository.
+2. Log in to [Netlify](https://app.netlify.com/) and click **Add New Site** > **Import an existing project**.
+3. Authorize GitHub and select your repository.
+4. Netlify will auto-detect Vite. Ensure the settings are:
+   - **Build command**: `npm run build`
+   - **Publish directory**: `dist`
+5. Click **Deploy Site**. In a few minutes, your site will be live!
+
 ## 🛠️ Built With
 - [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
